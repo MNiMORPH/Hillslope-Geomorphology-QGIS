@@ -39,7 +39,7 @@ sudo apt install qgis qgis-dev
 
 ### 2. Download and unzip the DEM
 
-[DEM ZIP](/assets/datasets/Minnesota_LiDAR_GIS_intro_lab.zip)
+[DEM ZIP](/datasets/Minnesota_LiDAR_GIS_intro_lab.zip)
 
 Note that this ZIP archive has many files in it! Each contains some data or metatadata, such as binary values that combine to give topographic information or geospatial referencing information.
 
@@ -51,17 +51,17 @@ Note that this ZIP archive has many files in it! Each contains some data or meta
 * Start QGIS.
 * Start a new project.
 * Click on "Project → Properties" to set the Coordinate Reference System (AKA map projection AKA CRS) for the project. For this lab, we will use UTM Zone 15N, as it encompasses this region of southwestern Minnesota.
-![Set CRS](/assets/images/topobathy/CRS.png)
+![Set CRS](/images/topobathy/CRS.png)
 
 
 ### 4. Import the DEM
 
 * Click on “Open Data Source Manager”
-![Open Data Source Manager](/assets/images/topobathy/OpenDataSourceManager.png)
+![Open Data Source Manager](/images/topobathy/OpenDataSourceManager.png)
 * Select “Raster”, and for the source, navigate to the `*.bil` file that you just extracted. Click “Add”.
-![Import Raster](/assets/images/topobathy/ImportRaster.png)
+![Import Raster](/images/topobathy/ImportRaster.png)
 * You should now have a grayscale map on your screen that looks like this:
-![Grayscale DEM](/assets/images/topobathy/DEM_after_import_grayscale.png)
+![Grayscale DEM](/images/topobathy/DEM_after_import_grayscale.png)
 
 
 ### 5. Add a little color to the DEM
@@ -79,7 +79,7 @@ Set the color ramp. the following instructions are just a suggestion – you may
 * Choose one that you like. I use “Wiki Schwarzwald” in these notes.
 * Click “OK” (maybe twice)
 
-![Colored elevation](/assets/images/topobathy/topo-schwarzwald.png)
+![Colored elevation](/images/topobathy/topo-schwarzwald.png)
 
 *Note: if you are really into the cognitive science behind color maps, as well as colorblind-friendliness, you should take a look at [Scientific Colour Maps](http://www.fabiocrameri.ch/colourmaps.php).*
 
@@ -90,7 +90,7 @@ Set the color ramp. the following instructions are just a suggestion – you may
 * While you’re at it, rename the original DEM to “DEM”
 * Double-click on the hillshade map, and choose its render type as “hillshade” in the “Symbology” of the Layer Properties dialog. Keep the defaults and click “OK”.
 
-![Hillshade](/assets/images/topobathy/hillshade.png)
+![Hillshade](/images/topobathy/hillshade.png)
 
 *Note: this method of generating a hillshade "on the fly" may make it look blocky when zooming in.* ***Raster → Analysis → Hillshade*** *will give you a way to create a brand-new file for the hillshade that sidesteps these issues.*
 
@@ -107,7 +107,7 @@ For real! Save it!
 
 ### 9. Build a presentable map
 
-Click **Project → New Print Layout**. Using the “Add a new map to the layout” button, ![Add map to display](/assets/images/topobathy/addmap.png), create a map canvas area. Play around with the tools to position your map on the page as you like.
+Click **Project → New Print Layout**. Using the “Add a new map to the layout” button, ![Add map to display](/images/topobathy/addmap.png), create a map canvas area. Play around with the tools to position your map on the page as you like.
 
 Then, add a scale bar using the proper tool.
 
@@ -124,7 +124,7 @@ Click Plugins → Manage and Install Plugins
 Type “HCM” in the search bar.
 Install HCMGIS
 
-![Install HCMGIS](/assets/images/topobathy/hcmgis_install.png)
+![Install HCMGIS](/images/topobathy/hcmgis_install.png)
 
 Next, click **HCMGIS → BaseMap → Google Satellite** to create a satellite-map layer atop yours.
 
@@ -141,9 +141,9 @@ Using the print layout, create a figure containing this semi-transparent imagery
 Now that you have had a chance to explore some different ways of using QGIS to visualize data and create maps, it's time to think about geomorphology.
 
 * Zoom into a small area of the map, which encompasses both hillslope and channels. An example of a representative area with some varied terrain for you to think about lies below; note that I created a true shaded-relief map using the "raster" menu in order to build this map.<br/>
-![Area for analysis](/assets/images/topobathy/representative_area.png)
+![Area for analysis](/images/topobathy/representative_area.png)
 * Create a new GeoPackage (gpkg) layer following the example below; note the field called "domain". This is a *vector* layer, made up of edges and vertices. Specifically, it is a *polygon* layer, which means that it encompasses an area. The other maps, on the other hand, are *raster* data sets.<br/>
-![Create gpkg](/assets/images/topobathy/new_gpkg.png)
+![Create gpkg](/images/topobathy/new_gpkg.png)
 * Classify the land surface into regions that you think may be dominated my *channel* (also called *fluvial*) or *hillslope* processes. Use your text-label field to indicate which one is which. To perform your classification, it may be helpful to build other maps, such as those showing slope or flow accumulation. Feel free to play around with QGIS and its features! The main idea here though is that you have a first idea of what these different zones are. It might not be quite so easy to pick out! That's okay: spend more time thinking than you spend clicking (the idea is for *good* -- not *perfect* -- polygons, and that you learn.
 * Next, prepare a map of your polygons as a semi-transparent layer over the hillshade. You will want to use the "categorized" option under "symbology" to make them show up as distinct colors. You may add additional maps to your report as well if you think that they are supportive of your work.
 * Finally, write a justification for how you chose your different process domains. Describe the criteria and data that you used and how you addressed ambiguities. Because of the methods used, this may well be qualitative, and that is okay. Quantification in geomorphology comes after building a basic intuition for the landscape. There is no set number of words or paragraphs, but it must be necessary to present and defend your choices, and link them to the features that you are observing in the landscape.
@@ -189,13 +189,13 @@ Compute the angle of internal friction, which is equal to the failure angle in t
 
 ## 2. Distribution of slope in a landscape governed by fluvial and hillslope processes (20 points)
 
-Here, we're returning to QGIS where you will use some basic landscape-analysis tools alongside the DEM from [the earlier lab exercise](/topobathy/intro_QGIS_process_domains_soils/). You should feel free to reopen this old exercise and save yourself a bit of time! Otherwise, [download the DEM](/assets/datasets/Minnesota_LiDAR_GIS_intro_lab.zip) and start fresh.
+Here, we're returning to QGIS where you will use some basic landscape-analysis tools alongside the DEM from [the earlier lab exercise](/topobathy/intro_QGIS_process_domains_soils/). You should feel free to reopen this old exercise and save yourself a bit of time! Otherwise, [download the DEM](/datasets/Minnesota_LiDAR_GIS_intro_lab.zip) and start fresh.
 
 ### (a) 10 points: Produce a slope histogram for a portion of this southeastern Minnesota landscape
 
-First, import the [DEM](/assets/datasets/Minnesota_LiDAR_GIS_intro_lab.zip) (if needed) and be sure that your project coordinate system is in UTM 15N with the NAD 83 datum. The EPSG code of the projection is 26915.
+First, import the [DEM](/datasets/Minnesota_LiDAR_GIS_intro_lab.zip) (if needed) and be sure that your project coordinate system is in UTM 15N with the NAD 83 datum. The EPSG code of the projection is 26915.
 
-![CRS](/assets/images/hillslope/crs.png)
+![CRS](/images/hillslope/crs.png)
 
 
 Then, look to the "processing toolbox" to the right. If you cannot see it, go to **view → panels → processing toolbox**.
@@ -204,12 +204,12 @@ You'll want to become acquainted with this -- it holds many useful tools for com
 
 In the search bar, type "clip", and select GDAL's "clip raster by extent".
 
-![Processing toolbox: clip](/assets/images/hillslope/clip_raster_extent.png)
+![Processing toolbox: clip](/images/hillslope/clip_raster_extent.png)
 
 
 Then, using this tool, follow the coordinate set that I have used here:
 
-![Clip raster to extent](/assets/images/hillslope/clip_raster_by_extent.png)
+![Clip raster to extent](/images/hillslope/clip_raster_by_extent.png)
 
 Bounding box: 558200,560400,4918200,4920200
 
@@ -219,14 +219,14 @@ Choose to save your output to a reasonable place on your computer (not to a temp
 
 After this, use the built-in QGIS tool to compute the slope angle (in degrees):
 
-![Slope tool select](/assets/images/hillslope/toolbox_slope.png)
+![Slope tool select](/images/hillslope/toolbox_slope.png)
 
-![QGIS slope tool](/assets/images/hillslope/slope_tool_QGIS.png)
+![QGIS slope tool](/images/hillslope/slope_tool_QGIS.png)
 
 
 Once you have completed this, use the "histogram tool" (also accessed via the processing toolbox) to compute a histogram and save it to an HTML file somewhere. (I'm not sure why QGIS saves this as a HTML, but it's good enough for what we need it to do: visualize some data.) The x axis is the slope angle, and the y axis is the number of cells that fall within that angle.
 
-![Histogram tool](/assets/images/hillslope/histogram_tool.png)
+![Histogram tool](/images/hillslope/histogram_tool.png)
 
 * Use 100 bins
 * y axis: n cells
@@ -299,14 +299,14 @@ By using this and analyzing the topography, you will be able to estimate the who
 
 First, install the Profile Tool plugin from via the drop-down menu: **Plugins → Manage and Install Plugins...**:
 
-![Install profile tool](/assets/images/hillslope/plugins_profileTool.png)
+![Install profile tool](/images/hillslope/plugins_profileTool.png)
 
 
-Next, use the **layer manager** to import the [line that I drew](/assets/datasets/HilltopCurvatureProfileLine.gpkg) crossing a hillslope between two incising valleys.
+Next, use the **layer manager** to import the [line that I drew](/datasets/HilltopCurvatureProfileLine.gpkg) crossing a hillslope between two incising valleys.
 
 Select this single line in the "layers" panel and open the Profiler Tool. Choose "selected layer" in the profiler tool for the source of the line, and add your DEM as the source for the elevation data.
 
-![Hilltop profile](/assets/images/hillslope/hilltop_profile.png)
+![Hilltop profile](/images/hillslope/hilltop_profile.png)
 
 Take a screenshot of your computer at this stage to demonstrate that you have successfully extracted your own data. This will be the basis for the 5 points -- basically, I want to give you some credit for griding through the mechanics of QGIS.
 
@@ -354,7 +354,7 @@ What do you notice that is different between the sections of the landscape that 
 
 Regions of the landscape whose slopes are near or above the angle of repose can fail suddenly. Consider a 45-degree hillslope. What is the minimum cohesion ($$\sigma_c$$) that would be required to maintain this slope as barely stable (i.e., at incipient failure)?
 
-Recall the general equation for slope stability (see [the notes](/assets/notes/02_03_Hillslopes.pdf) for more complete descriptions):
+Recall the general equation for slope stability (see [the notes](/notes/02_03_Hillslopes.pdf) for more complete descriptions):
 
 $$\tau = \mu \sigma_\mathrm{eff} \cos \theta + \sigma_c$$
 
