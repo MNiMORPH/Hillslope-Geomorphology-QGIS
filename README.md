@@ -165,7 +165,7 @@ Be sure to submit a copy of your map with labeled points in your write-up. You l
 
 ## 1. Distribution of slope in a landscape governed by fluvial and hillslope processes (20 points)
 
-### (a) 10 points: Produce a slope histogram for a portion of this southeastern Minnesota landscape
+### (a) 5 points: Produce a slope histogram for a portion of this southeastern Minnesota landscape
 
 First, be sure that your project coordinate system is in UTM 15N with the NAD 83 datum. The EPSG code of the projection is 26915.
 
@@ -216,7 +216,7 @@ Why does the distribution of slopes on the DEM look the way it does? Think about
 Take a screenshot of the histogram and annotate it, and write a paragraph supporting your conjectures. For example: Is the histogram continuous or not, and why? How does the set of slopes compare wtih the angle of repose, and is this as expected or is it surprising? Do you think that the slope map is more representative of channels or hillslopes? Can you see zones where gradual creep vs. sudden mass-wasting processes may be dominant? Support your ideas based on what we have learned about the mechanics of these landscapes.
 
 
-## 3. Obtaining erosion rate and extent from hillslope diffusion and hilltop curvature (45 points)
+## 2. Obtaining erosion rate and extent from hillslope diffusion and hilltop curvature (45 points)
 
 In the geosciences, we often obtain rates from sets of dates -- typically, radiometric dates. However, the topography also tells a story, and by interpreting it, you can also start to infer how quickly geological processes operate -- and project into the future.
 
@@ -226,7 +226,7 @@ $$\frac{\partial z}{\partial t} = k_h \frac{\partial^2 z}{\partial x^2}$$
 
 ### (a) 5 points: Dimensional analysis of hillslope diffusivity
 
-$k_h$ is the hillslope-diffusion coefficient, or "hillslope diffusivity". Its numerical value is typically 0.05 (using time units of years and length units of meters... don't want to give it all away!) for poorly-consolidated materials (e.g., glacial till, soils fine-grained sedimentary or metasedimentary rock). What are its units? Demonstrate this using dimensional analysis of the differential equation terms to the left and right of the "equals" sign.
+$k_h$ is the hillslope-diffusion coefficient, or "hillslope diffusivity". Its numerical value is often around 0.05 for poorly-consolidated materials (e.g., glacial till, soils fine-grained sedimentary or metasedimentary rock). What are its SI units? Demonstrate this using dimensional analysis of the differential equation terms to the left and right of the "equals" sign.
 
 Hint: the terms in the differential equation are really just giving you *differences* over an infinitesimally small distance. Remember that these have units! It might be helpful for your thinking to change the $\partial$s to $\Delta$s, or to entirely remove the derivative symbols (and to replace the letters with units).
 
@@ -314,9 +314,9 @@ You have solved for a natural backgorund erosion rate. Stan Trimble, geomorpholo
 Compare the natural erosion rate to the 19th--20th century rate, and (in a few sentences) and describe why you expect this discrepancy exists, perhaps drawing from some of the information you learned from Dave Montgomery's lecture.
 
 
-## 4. Identifying zones of likely mass-wasting processes in the landscape (30 points)
+## 4. Identifying zones of likely mass-wasting processes in the landscape (25 points)
 
-### (a) 10 points: Comparing slopes to the angle of repose
+### (a) 5 points: Comparing slopes to the angle of repose
 
 Using the slope map that you built in Question 2, compute a binary raster based on slopes that are above the angle of repose (computed in Step 1). According to Byerlee's Law, most geological materials have frictional properties that are similar to sand ($\mu$ = 0.6). The best way to do this is by using the "Raster Calculator", built in to QGIS. Produce a map with a descriptive legend as your output. Brownie points (but no real points) if you decide to create a nice-looking map with overlays or do something creative with the QGIS map composer.
 
