@@ -1,3 +1,5 @@
+# QGIS and Hillslopes (120 points total)
+
 This lab is in two parts. You may do these in a group with others, though you must each turn in your own assignment.
 
 Your hand-in will be a **single PDF document**. There are many tools that you may use to stich PDFs together (web searches are your friend).
@@ -163,7 +165,7 @@ Be sure to submit a copy of your map with labeled points in your write-up. You l
 
 # Part 2: Hillslope Processes
 
-## 1. Distribution of slope in a landscape governed by fluvial and hillslope processes (20 points)
+## 1. Distribution of slope in a landscape governed by fluvial and hillslope processes (15 points)
 
 ### (a) 5 points: Produce a slope histogram for a portion of this southeastern Minnesota landscape
 
@@ -216,7 +218,7 @@ Why does the distribution of slopes on the DEM look the way it does? Think about
 Take a screenshot of the histogram and annotate it, and write a paragraph supporting your conjectures. For example: Is the histogram continuous or not, and why? How does the set of slopes compare wtih the angle of repose, and is this as expected or is it surprising? Do you think that the slope map is more representative of channels or hillslopes? Can you see zones where gradual creep vs. sudden mass-wasting processes may be dominant? Support your ideas based on what we have learned about the mechanics of these landscapes.
 
 
-## 2. Obtaining erosion rate and extent from hillslope diffusion and hilltop curvature (45 points)
+## 2. Obtaining erosion rate and extent from hillslope diffusion and hilltop curvature (40 points)
 
 In the geosciences, we often obtain rates from sets of dates -- typically, radiometric dates. However, the topography also tells a story, and by interpreting it, you can also start to infer how quickly geological processes operate -- and project into the future.
 
