@@ -46,7 +46,7 @@ sudo apt install qgis qgis-dev
 
 ### 2. Download and unzip the DEM
 
-[DEM ZIP](/datasets/Minnesota_LiDAR_GIS_intro_lab.zip)
+[DEM ZIP](lidar.zip)
 
 Note that this ZIP archive has many files in it! Each contains some data or metatadata, such as binary values that combine to give topographic information or geospatial referencing information.
 
