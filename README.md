@@ -1,3 +1,10 @@
+This lab is in two parts. You may do these in a group with others, though you must each turn in your own assignment.
+
+Your hand-in will be a **single PDF document**. There are many tools that you may use to stich PDFs together (web searches are your friend).
+
+
+# Part 1: Introduction to QGIS (+ thoughts on soils)
+
 ## Learning Goals
 
 * Become familiar with QGIS, a free and open source GIS
@@ -10,14 +17,12 @@
   * Well-reasoned arguments lead to a good grade, even if you are wrong!
   * Grammar, spelling, punctuation, and style may all be graded. Professional writing skills are essential and must be practiced. (Fancy is not necessary, but correct is.)
 
-## Deliverables: 60 points total
+## Deliverables: 40 points total
 
 * (10 points) An exported map showing a DEM imported into QGIS, set up with a semi-transparent elevation color ramp over a shaded-relief map. Include a scale. Use the Print Layout tool to produce this. (See Step 7.)
-* (10 points) This same map, but with overhead imagery (using HCMGIS) replacing the colored elevation data set.
-* (25 points) This same map once more, but this time with the semi-transparent colored DEM replaced by semi-transparent GIS vector layers delineating hillslope vs. channel process domains in a subset of this landscape. Additionally, include an explanation of how you chose different process domains, as described in Step 11, below.
-* (15 points) Identify graphically and in words the locations on the landscape in which you expect to find the shallowest and deepest soils, as well as the youngest and oldest soils. Here, it is your reasoning that counts! Think back to soil-production functions and think about what factors may cause hillslope material to erode quickly or to stay in place for a long time. See Step 12 for more information on this.
-
-You are expected to hand in a **single PDF document** that is responsive to the above three bullet points, including both the maps and the text. There are many tools that you may use to stich PDFs together (web searches are your friend).
+* (5 points) This same map, but with overhead imagery (using HCMGIS) replacing the colored elevation data set.
+* (15 points) This same map once more, but this time with the semi-transparent colored DEM replaced by semi-transparent GIS vector layers delineating hillslope vs. channel process domains in a subset of this landscape. Additionally, include an explanation of how you chose different process domains, as described in Step 11, below.
+* (10 points) Identify graphically and in words the locations on the landscape in which you expect to find the shallowest and deepest soils, as well as the youngest and oldest soils. Here, it is your reasoning that counts! Think back to soil-production functions and think about what factors may cause hillslope material to erode quickly or to stay in place for a long time. See Step 12 for more information on this.
 
 ## Steps
 
@@ -149,6 +154,10 @@ Now that you have had a chance to explore some different ways of using QGIS to v
 A key component of soils and geomorphology is the relationship between erosion (or deposition) and soil production. Pick three points in the subset of the map where you analyzed process domains, and describe whether you think the soils will be thick or thin, and how that relates to the processes occurring (and their rates). As this is an exploratory assignment, your answers need not be right to be graded highly, but if they are wrong without an explanation, your grade will be poor! Make sure to provide reasoning behind all of your point placements.
 
 Be sure to submit a copy of your map with labeled points in your write-up. You learned how to create GeoPackages above, and this could be a great way to work with this as well. In **Layer Properties**, QGIS allows you to set labels on your points, which could also be helpful.
+
+
+# Part 2: Introduction to QGIS (+ thoughts on soils)
+
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
