@@ -295,25 +295,24 @@ Paste this data set in your desired spreadsheet program. You are ready to begin 
 
 ***Solve for erosion rate***
 
-* First, create a plot of your data as a set of x,z points (or as a continuous line, your choice.
-* Second, create a curve fit to this as a second-order polynomial
+* First, create a plot of your data as a set of x,z points (or as a continuous line: your choice).
+* Second, create a curve fit to this as a second-order polynomial.
 * Third, note that the parabolic fit, strictly speaking, is only valid near the top of the hill. Consider trimming some of the river valleys and surrounding regions. I expect you to obtain a good fit regardless, and for the result to be relatively insensitive to this.
 
-**Your mission now** Once you have this fit, use it with the above equation to find the average erosion rate. For this, assume (as before), that $k_m = 0.01$ in units of meters and years. When considering the sign of your solution, recall that erosion is defined such that *down* is positive. (Right? Becuase otherwise it wouldn't be... eroding.)
+**Your mission now** Once you have this fit, use it with the above ordinary differential equation to find the average erosion rate. For this, assume (as before), that $k_m = 0.01$ in units of meters and years. When considering the sign of your solution, recall that erosion is defined such that *down* is positive. (Right? Becuase otherwise it wouldn't be... eroding.)
 
-**Also:** Project how much additional erosion might occur in the next 1 million years.
+**Also:** Project how much additional erosion (distance) might occur in the next 1 million years if the overall shape of the hillslopes remains similar.
 
 **Turn in:**
-* A copy of your spreadsheet-generated plot with data, curve fit, and the curve-fit parameters (coefficients and goodness of fit
+* An image of your spreadsheet-generated plot with data, curve fit, and the curve-fit parameters (coefficients and goodness of fit)
 * Your computed average erosion rate, including your math/work to get there
 * The estimated additional erosion after 1 million years of further hillslope evolution
-
 
 #### iii: 5 points
 
 You have solved for a natural backgorund erosion rate. Stan Trimble, geomorphologist from UCLA, studied erosion following Euro-American settlement in Coon Creek, a river basin on the Wisconsin side of the Mississippi valley. From his paper ([linked here for those with UMN libraries access](https://primo.lib.umn.edu/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A2075004&context=PC&vid=TWINCITIES&lang=en_US&search_scope=mncat_discovery&adaptor=primo_central_multiple_fe&tab=article_discovery&query=any,contains,Changes%20in%20Sediment%20Storage%20in%20the%20Coon%20Creek%20Basin,%20Driftless%20Area,%20Wisconsin,%201853%20to%201975)), he estimates an average depth of erosion of 13.2 cm over the course of time from 1853 to 1975, which encompasses the major phase of Euro-American settlement, land clearing, and unsustainable plowing practices.
 
-Compare the natural erosion rate to the 19th--20th century rate, and (in a few sentences) and describe why you expect this discrepancy exists, perhaps drawing from some of the information you learned from Dave Montgomery's lecture.
+Compare the natural erosion rate to the 19th--20th century rate, and (in a few sentences) and describe why you expect this discrepancy exists. [Dave Montgomery's Nobel Conference lecture](https://www.youtube.com/watch?v=4-8mCXxsR3M) at Gustavus may provide some inspiration towards your reasoning.
 
 
 ## 4. Identifying zones of likely mass-wasting processes in the landscape (25 points)
