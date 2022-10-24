@@ -343,8 +343,8 @@ $$\sigma_\mathrm{eff} = \sigma - P_f = (1 - \lambda_p) \rho_r g h$$
 
 Use the following parameters
 * Slope angle $\theta$ = 45 degrees
-* Rock density $\rho_r$ = 2840 kg/m$^3$ (dolomite)
-* Water density $\rho_w$ = 1000 kg/m$^3$
+* Rock density $\rho_r$ = 2840 kg/m<sup>3</sup> (dolomite)
+* Water density $\rho_w$ = 1000 kg/m<sup>3</sup>
 * Porosity $\lambda_p$ = 0.2
 * Fractional pore content $f_w$ = 0
 * The coefficient of internal friction $\mu$ = 0.6
