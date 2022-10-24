@@ -3,9 +3,7 @@ This lab is in two parts. You may do these in a group with others, though you mu
 Your hand-in will be a **single PDF document**. There are many tools that you may use to stich PDFs together (web searches are your friend).
 
 
-# Part 1: Introduction to QGIS (+ thoughts on soils)
-
-## Learning Goals
+## [Learning] Goals
 
 * Become familiar with QGIS, a free and open source GIS
   * Install a QGIS plug-in to incorporate commercially-available (but viewable for free) imagery in a geospatial framework
@@ -16,13 +14,20 @@ Your hand-in will be a **single PDF document**. There are many tools that you ma
 * Present your arguments and reasoning in writing
   * Well-reasoned arguments lead to a good grade, even if you are wrong!
   * Grammar, spelling, punctuation, and style may all be graded. Professional writing skills are essential and must be practiced. (Fancy is not necessary, but correct is.)
+* Analyze a small region of southeastern Minnesota using 1-meter LiDAR topography to understand and apply hillslope processes.
+* Use slope to identify zones of landsliding vs. hillslope creep.
+* Work to understand landslide susceptibility as a function of slope, pore-fluid pressure, and cohesion.
+* Use hilltop curvature to estimate the overall landscape erosion rate and project it into the future.
+
+
+# Part 1: Introduction to QGIS (+ thoughts on soils)
 
 ## Deliverables: 40 points total
 
-* (10 points) An exported map showing a DEM imported into QGIS, set up with a semi-transparent elevation color ramp over a shaded-relief map. Include a scale. Use the Print Layout tool to produce this. (See Step 7.)
-* (5 points) This same map, but with overhead imagery (using HCMGIS) replacing the colored elevation data set.
-* (15 points) This same map once more, but this time with the semi-transparent colored DEM replaced by semi-transparent GIS vector layers delineating hillslope vs. channel process domains in a subset of this landscape. Additionally, include an explanation of how you chose different process domains, as described in Step 11, below.
-* (10 points) Identify graphically and in words the locations on the landscape in which you expect to find the shallowest and deepest soils, as well as the youngest and oldest soils. Here, it is your reasoning that counts! Think back to soil-production functions and think about what factors may cause hillslope material to erode quickly or to stay in place for a long time. See Step 12 for more information on this.
+1. (10 points) An exported map showing a DEM imported into QGIS, set up with a semi-transparent elevation color ramp over a shaded-relief map. Include a scale. Use the Print Layout tool to produce this. (See Step 7.)
+2. (5 points) This same map, but with overhead imagery (using HCMGIS) replacing the colored elevation data set.
+3. (15 points) This same map once more, but this time with the semi-transparent colored DEM replaced by semi-transparent GIS vector layers delineating hillslope vs. channel process domains in a subset of this landscape. Additionally, include an explanation of how you chose different process domains, as described in Step 11, below.
+4. (10 points) Identify graphically and in words the locations on the landscape in which you expect to find the shallowest and deepest soils, as well as the youngest and oldest soils. Here, it is your reasoning that counts! Think back to soil-production functions and think about what factors may cause hillslope material to erode quickly or to stay in place for a long time. See Step 12 for more information on this.
 
 ## Steps
 
@@ -151,49 +156,18 @@ Now that you have had a chance to explore some different ways of using QGIS to v
 
 ### 12. Soils
 
-A key component of soils and geomorphology is the relationship between erosion (or deposition) and soil production. Pick three points in the subset of the map where you analyzed process domains, and describe whether you think the soils will be thick or thin, and how that relates to the processes occurring (and their rates). As this is an exploratory assignment, your answers need not be right to be graded highly, but if they are wrong without an explanation, your grade will be poor! Make sure to provide reasoning behind all of your point placements.
+Geomorphology encompasses the relationship between erosion (or deposition) and soil production. Pick three points in the subset of the map where you analyzed process domains, and describe whether you think the soils will be thick or thin, and how that relates to the processes occurring (and their rates). As this is an exploratory assignment, your answers need not be right to be graded highly, but if they are wrong without an explanation, your grade will be poor! Make sure to provide reasoning behind all of your point placements.
 
 Be sure to submit a copy of your map with labeled points in your write-up. You learned how to create GeoPackages above, and this could be a great way to work with this as well. In **Layer Properties**, QGIS allows you to set labels on your points, which could also be helpful.
 
 
 # Part 2: Hillslope Processes
 
-*Problem set / lab (depending on whether "computer lab" = "real lab") on hillslope diffusion and evolution alongside landsliding.* ***110 points total***
-
-## Learning Goals
-
-In this problem set, you will:
-* Analyze a small region of southeastern Minnesota using 1-meter LiDAR topography to understand and apply hillslope processes.
-* Use slope to identify zones of landsliding vs. hillslope creep.
-* Work to understand landslide susceptibility as a function of slope, pore-fluid pressure, and cohesion.
-* Use hilltop curvature to estimate the overall landscape erosion rate and project it into the future.
-
-Need a review on QGIS? [Look into the prior lab.](/topobathy/intro_QGIS_process_domains_soils/)
-
-## 1. Angle of repose (15 points)
-
-Based on the analysis of a block on an inclined plane, which is analogous to slip within a continuous medium (like, let's just say, a hill formed of sand), failure (i.e., slip of the block) will occur at a certain angle. I want you to:
-
-### (a) 5 points: Free-body diagram
-
-Set up the free-body diagram for either the block on an inclined plane or the failing continuum.
-
-### (b) 5 points: Equation set-up
-
-Write the equation that relates the failure angle to the coefficient of friction, $\mu$. Show your work.
-
-### (c) 5 points: Compute angle of repose
-
-Compute the angle of internal friction, which is equal to the failure angle in the block-on-an-inclined-plane example, for a hill made of sand. The coefficient of internal friction of sand, which is analogous to the frictional coefficinet between the block and plane, is $\mu = 0.6$. Because this is the angle at which materials will fail, this is the angle that the topography of a cohesionless hill of that material (in this case, sand) will form. Provide the angle of repose, along with your work.
-
-
-## 2. Distribution of slope in a landscape governed by fluvial and hillslope processes (20 points)
-
-Here, we're returning to QGIS where you will use some basic landscape-analysis tools alongside the DEM from [the earlier lab exercise](/topobathy/intro_QGIS_process_domains_soils/). You should feel free to reopen this old exercise and save yourself a bit of time! Otherwise, [download the DEM](/datasets/Minnesota_LiDAR_GIS_intro_lab.zip) and start fresh.
+## 1. Distribution of slope in a landscape governed by fluvial and hillslope processes (20 points)
 
 ### (a) 10 points: Produce a slope histogram for a portion of this southeastern Minnesota landscape
 
-First, import the [DEM](/datasets/Minnesota_LiDAR_GIS_intro_lab.zip) (if needed) and be sure that your project coordinate system is in UTM 15N with the NAD 83 datum. The EPSG code of the projection is 26915.
+First, be sure that your project coordinate system is in UTM 15N with the NAD 83 datum. The EPSG code of the projection is 26915.
 
 ![CRS](/images/hillslope/crs.png)
 
