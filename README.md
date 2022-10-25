@@ -4,6 +4,8 @@ This lab is in two parts. You may do these in a group with others, though you mu
 
 Your hand-in will be a **single PDF document**. There are many tools that you may use to stich PDFs together (web searches are your friend).
 
+**Lab exercise created by Andrew Wickert, Fall 2020; modified Fall 2022**
+
 
 ## [Learning] Goals
 
