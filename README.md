@@ -1,10 +1,14 @@
+**ESCI 4701/8701: Geomorphology**<br/>
+**Lab Exercise**<br/>
+**A. Wickert, Fall 2020; modified Fall 2022**<br/>
+<br/>
+
 # QGIS and Hillslopes (120 points total)
 
 This lab is in two parts. You may do these in a group with others, though you must each turn in your own assignment.
 
 Your hand-in will be a **single PDF document**. There are many tools that you may use to stich PDFs together (web searches are your friend).
 
-***Lab exercise created by Andrew Wickert, Fall 2020; modified Fall 2022***
 
 
 ## [Learning] Goals
