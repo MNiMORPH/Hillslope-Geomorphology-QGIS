@@ -235,7 +235,7 @@ Hint: the terms in the differential equation are really just giving you *differe
 ### (b) 15 points: Diffusion length
 
 #### i: 5 points
-Showing your work, use a similar approach to the dimensional analysis to show how you could intuit a how the characteristic horizontal ($x$) length scale of hillslope diffusion relates to the a time scale, $t$. You can think of this *length scale* as the distance away from the channel that the hillslope has responded to river incision (or, if you prefer to personify a landscape, the distance over which the hills can "feel" the effects of the river). The *time scale* is the time since some sudden event, such as a rapid pulse of river incision. In the upper Mississippi valley, this pulse occurred sometime between 0.8 and 2.5 million years ago.
+Showing your work, use a similar approach to the dimensional analysis to show how you could intuit a how the characteristic horizontal $(x)$ length scale of hillslope diffusion relates to the a time scale, $t$. You can think of this *length scale* as the distance away from the channel that the hillslope has responded to river incision (or, if you prefer to personify a landscape, the distance over which the hills can "feel" the effects of the river). The *time scale* is the time since some sudden event, such as a rapid pulse of river incision. In the upper Mississippi valley, this pulse occurred sometime between 0.8 and 2.5 million years ago.
 
 #### ii: 5 points
 
@@ -319,7 +319,7 @@ Compare the natural erosion rate to the 19th--20th century rate, and (in a few s
 
 ### (a) 5 points: Comparing slopes to the angle of repose
 
-Using the slope map that you built in Question 2, compute a binary raster based on slopes that are above the angle of repose (computed in Step 1). According to Byerlee's Law, most geological materials have frictional properties that are similar to sand ($\mu$ = 0.6). The best way to do this is by using the "Raster Calculator", built in to QGIS. Produce a map with a descriptive legend as your output. Brownie points (but no real points) if you decide to create a nice-looking map with overlays or do something creative with the QGIS map composer.
+Using the slope map that you built in Question 2, compute a binary raster based on slopes that are above the angle of repose (computed in Step 1). According to Byerlee's Law, most geological materials have frictional properties that are similar to sand $(\mu = 0.6)$. The best way to do this is by using the "Raster Calculator", built in to QGIS. Produce a map with a descriptive legend as your output. Brownie points (but no real points) if you decide to create a nice-looking map with overlays or do something creative with the QGIS map composer.
 
 ### (b) 5 points: Topographic observations
 
@@ -327,15 +327,15 @@ What do you notice that is different between the sections of the landscape that 
 
 ### (c) 10 points: Cohesion
 
-Regions of the landscape whose slopes are near or above the angle of repose can fail suddenly. Consider a 45-degree hillslope. What is the minimum cohesion ($\sigma_c$) that would be required to maintain this slope as barely stable (i.e., at incipient failure)?
+Regions of the landscape whose slopes are near or above the angle of repose can fail suddenly. Consider a 45-degree hillslope. What is the minimum cohesion $(\sigma_c)$ that would be required to maintain this slope as barely stable (i.e., at incipient failure)?
 
 Recall the general equation for slope stability (see [the notes](/notes/02_03_Hillslopes.pdf) for more complete descriptions):
 
 $\tau = \mu \sigma_\mathrm{eff} \cos \theta + \sigma_c$
 
-along with the supporting equations for shear stress ($\tau$), which is the same as the *driving* stress ($\sigma_d$, the stress pushing the system towards failure):
+along with the supporting equations for shear stress $(\tau)$, which is the same as the *driving* stress $(\sigma_d$, the stress pushing the system towards failure):
 
-$$\sigma_d = \tau = \left((1 - \lambda_p) \rho_r + \lambda_p f_w \rho_w\right) g h \sin \theta$$
+$$\sigma_d \equiv \tau = \left((1 - \lambda_p) \rho_r + \lambda_p f_w \rho_w\right) g h \sin \theta$$
 
 and the effective normal stress, $\sigma_\mathrm{eff}$, which is part of the *resisting* stress term:
 
