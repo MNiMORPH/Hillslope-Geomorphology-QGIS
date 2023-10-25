@@ -3,7 +3,7 @@
 **A. Wickert, Fall 2020; modified Fall 2022**<br/>
 <br/>
 
-# QGIS and Hillslopes (120 points total)
+# QGIS and Hillslopes (95 points total)
 
 This lab is in two parts. You may do these in a group with others, though you must each turn in your own assignment.
 
@@ -30,12 +30,12 @@ Your hand-in will be a **single PDF document**. There are many tools that you ma
 
 # Part 1: Introduction to QGIS (+ thoughts on soils)
 
-## Deliverables: 40 points total
+## Deliverables: 20 points total
 
-1. (10 points) An exported map showing a DEM imported into QGIS, set up with a semi-transparent elevation color ramp over a shaded-relief map. Include a scale. Use the Print Layout tool to produce this. (See Step 7.)
-2. (5 points) This same map, but with overhead imagery (using HCMGIS) replacing the colored elevation data set.
-3. (15 points) This same map once more, but this time with the semi-transparent colored DEM replaced by semi-transparent GIS vector layers delineating hillslope vs. channel process domains in a subset of this landscape. Additionally, include an explanation of how you chose different process domains, as described in Step 11, below.
-4. (10 points) Identify graphically and in words the locations on the landscape in which you expect to find the shallowest and deepest soils, as well as the youngest and oldest soils. Here, it is your reasoning that counts! Think back to soil-production functions and think about what factors may cause hillslope material to erode quickly or to stay in place for a long time. See Step 12 for more information on this.
+1. (5 points) An exported map showing a DEM imported into QGIS, set up with a semi-transparent elevation color ramp over a shaded-relief map. Include a scale. Use the Print Layout tool to produce this. (See Step 7.)
+2. (3 points) This same map, but with overhead imagery (using HCMGIS) replacing the colored elevation data set.
+3. (7 points) This same map once more, but this time with the semi-transparent colored DEM replaced by semi-transparent GIS vector layers delineating hillslope vs. channel process domains in a subset of this landscape. Additionally, include an explanation of how you chose different process domains, as described in Step 11, below.
+4. (5 points) Identify graphically and in words the locations on the landscape in which you expect to find the shallowest and deepest soils, as well as the youngest and oldest soils. Here, it is your reasoning that counts! Think back to soil-production functions and think about what factors may cause hillslope material to erode quickly or to stay in place for a long time. See Step 12 for more information on this.
 
 ## Steps
 
@@ -174,7 +174,7 @@ Be sure to submit a copy of your map with labeled points in your write-up. You l
 
 # Part 2: Hillslope Processes
 
-## 1. Distribution of slope in a landscape governed by fluvial and hillslope processes (15 points)
+## 1. Distribution of slope in a landscape governed by fluvial and hillslope processes (10 points)
 
 ### (a) 5 points: Produce a slope histogram for a portion of this southeastern Minnesota landscape
 
@@ -220,7 +220,7 @@ Once you have completed this, use the "histogram tool" (also accessed via the pr
 Computing the histogram might take some time, and it will get stuck on 99%. Don't worry! Maybe do before making a snack / using the bathroom. Going on a jog works too, but it's more a few minutes than a few tens, at least on my old-ish computer.
 
 
-### (b): 10 points: Why does this histogram look the way it does?
+### (b): 5 points: Why does this histogram look the way it does?
 
 Why does the distribution of slopes on the DEM look the way it does? Think about different processes that could be intfluencing the topography. (Note: significant erosion has occurred in this region since the Mississippi River incised between ~2.5 and 0.8 million years ago: Over this time, the landscape has eroded on average.)
 
@@ -266,7 +266,7 @@ This value may be a bit high, but it sure makes the math easier!
 
 **The question for you:** If it has been 2 million years since the Mississippi first incised, setting off hillslope diffusion, then how far from a channel might hillslope diffusion have reached in this time? How does this compare to the distances in the DEM subset that you used for Question 2? Based on this, would you expect that most regions between these valleys might be experiencing hillslope diffusion everywhere, or do you think that there could be some high plateaus that have not yet "felt" the river incision?
 
-### (c) 25 points: Solving for mean landscape erosion rate using hilltop curvature.
+### (c) 20 points: Solving for mean landscape erosion rate using hilltop curvature.
 
 Let's return to the hillslope diffusion equation:
 
@@ -300,7 +300,7 @@ Then, go to the "Table" tab and copy the data table to the clipboard. This will 
 Paste this data set in your desired spreadsheet program. You are ready to begin the next step.
 
 
-#### ii: 15 points
+#### ii: 10 points
 
 ***Solve for erosion rate***
 
