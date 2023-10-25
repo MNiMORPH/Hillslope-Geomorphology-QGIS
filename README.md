@@ -3,7 +3,7 @@
 **A. Wickert, Fall 2020; modified Fall 2022**<br/>
 <br/>
 
-# QGIS and Hillslopes (95 points total)
+# Hillslope Geomorphology and QGIS (95 points total)
 
 This lab is in two parts. You may do these in a group with others, though you must each turn in your own assignment.
 
