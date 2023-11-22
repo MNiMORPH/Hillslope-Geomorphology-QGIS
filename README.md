@@ -52,7 +52,7 @@ sudo apt install qgis qgis-dev
 
 ### 2. Download and unzip the DEM
 
-[DEM ZIP](lidar.zip) (https://github.com/MNiMORPH/QGIS-hillslopes-lab/blob/main/lidar.zip?raw=true)
+[DEM ZIP](https://github.com/MNiMORPH/QGIS-hillslopes-lab/blob/main/lidar.zip?raw=true)
 
 Note that this ZIP archive has many files in it! Each contains some data or metatadata, such as binary values that combine to give topographic information or geospatial referencing information.
 
@@ -287,7 +287,7 @@ First, install the Profile Tool plugin from via the drop-down menu: **Plugins â†
 ![Install profile tool](./images/hillslope/plugins_profileTool.png)
 
 
-Next, use the **layer manager** to import the [line that I drew](./datasets/HilltopCurvatureProfileLine.gpkg) (https://github.com/MNiMORPH/QGIS-hillslopes-lab/blob/main/HilltopCurvatureProfileLine.gpkg?raw=true) crossing a hillslope between two incising valleys.
+Next, use the **layer manager** to import the [line that I drew](https://github.com/MNiMORPH/QGIS-hillslopes-lab/blob/main/HilltopCurvatureProfileLine.gpkg?raw=true) crossing a hillslope between two incising valleys.
 
 Select this single line in the "layers" panel and open the Profiler Tool. Choose "selected layer" in the profiler tool for the source of the line, and add your DEM as the source for the elevation data.
 
@@ -319,9 +319,9 @@ Paste this data set in your desired spreadsheet program. You are ready to begin 
 
 #### iii: 5 points
 
-You have solved for a natural backgorund erosion rate. Stan Trimble, geomorphologist from UCLA, studied erosion following Euro-American settlement in Coon Creek, a river basin on the Wisconsin side of the Mississippi valley. From his paper ([linked here for those with UMN libraries access](https://primo.lib.umn.edu/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A2075004&context=PC&vid=TWINCITIES&lang=en_US&search_scope=mncat_discovery&adaptor=primo_central_multiple_fe&tab=article_discovery&query=any,contains,Changes%20in%20Sediment%20Storage%20in%20the%20Coon%20Creek%20Basin,%20Driftless%20Area,%20Wisconsin,%201853%20to%201975)) (https://primo.lib.umn.edu/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A2075004&context=PC&vid=TWINCITIES&lang=en_US&search_scope=mncat_discovery&adaptor=primo_central_multiple_fe&tab=article_discovery&query=any,contains,Changes%20in%20Sediment%20Storage%20in%20the%20Coon%20Creek%20Basin,%20Driftless%20Area,%20Wisconsin,%201853%20to%201975)), he estimates an average depth of erosion of 13.2 cm over the course of time from 1853 to 1975, which encompasses the major phase of Euro-American settlement, land clearing, and unsustainable plowing practices.
+You have solved for a natural backgorund erosion rate. Stan Trimble, geomorphologist from UCLA, studied erosion following Euro-American settlement in Coon Creek, a river basin on the Wisconsin side of the Mississippi valley. From his paper ([linked here for those with UMN libraries access](https://primo.lib.umn.edu/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A2075004&context=PC&vid=TWINCITIES&lang=en_US&search_scope=mncat_discovery&adaptor=primo_central_multiple_fe&tab=article_discovery&query=any,contains,Changes%20in%20Sediment%20Storage%20in%20the%20Coon%20Creek%20Basin,%20Driftless%20Area,%20Wisconsin,%201853%20to%201975)), he estimates an average depth of erosion of 13.2 cm over the course of time from 1853 to 1975, which encompasses the major phase of Euro-American settlement, land clearing, and unsustainable plowing practices.
 
-Compare the natural erosion rate to the 19th--20th century rate, and (in a few sentences) and describe why you expect this discrepancy exists. [Dave Montgomery's Nobel Conference lecture](https://www.youtube.com/watch?v=4-8mCXxsR3M) (https://www.youtube.com/watch?v=4-8mCXxsR3M) at Gustavus may provide some inspiration towards your reasoning.
+Compare the natural erosion rate to the 19th--20th century rate, and (in a few sentences) and describe why you expect this discrepancy exists. [Dave Montgomery's Nobel Conference lecture](https://www.youtube.com/watch?v=4-8mCXxsR3M) at Gustavus may provide some inspiration towards your reasoning.
 
 
 ## 4. Identifying zones of likely mass-wasting processes in the landscape (25 points)
