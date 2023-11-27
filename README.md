@@ -256,7 +256,7 @@ The actual solution for this scaling (part **i**) is:
 
 $$L = 2 \sqrt{k_m t},$$
 
-where $L$ is a characteristic length scale. Yes, I just gave you (sort of) the answer to this first part! And so this is why you have to show your work: I need to know that you know how you get to this length-scale--time-scale *proportionality*.
+where $L$ is a characteristic length scale. Yes, I just gave you (sort of) the answer to this first part! And so this is why you have to show your work: I need to know that you know how you get to this length-scale--time-scale *proportionality*. (n.b. I write "proportionality" here because you would need to actually solve the PDE to obtain the coefficient of 2. The dimensional analysis approach that I ask you to apply above should give you the proper functional relationship between the variables but without information on coefficients. Still, it is nice to see that you can take apart an equation quickly and gain information on how its solutions might scale.)
 
 Considering that the bluffs of the upper Mississippi valley are made of dolostone, which is considerably less erodible than glacial till (though it can weather), I assume that:
 
