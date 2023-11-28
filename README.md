@@ -1,6 +1,6 @@
 **ESCI 4701/8701: Geomorphology**<br/>
 **Lab Exercise**<br/>
-**A. Wickert, Fall 2020; modified Fall 2022**<br/>
+**A. Wickert, Fall 2020; modified Fall 2022 and (slightly) Fall 2023**<br/>
 <br/>
 
 # Hillslope Geomorphology and QGIS (95 points total)
